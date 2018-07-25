@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        Dynamic Proxy - undefined
         
     </title>
 
@@ -53,7 +53,7 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li  class=active >
+            <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>主页</span>
@@ -88,6 +88,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#动态代理"><span class="toc-text">动态代理</span></a></li></ol>
+</div>
+    
 </div>
 
 
@@ -111,48 +115,34 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 720px">
-    
-    <div class="post-preview">
-        <div class="post-time">2018-07-25</div>
-        <div class="post-info">
-            <a href="/2018/07/25/Dynamic-Proxy/">
-                <h3>
-                    Dynamic Proxy
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#Java Android Design Pattern" title="Java Android Design Pattern">Java Android Design Pattern</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-07-24</div>
-        <div class="post-info">
-            <a href="/2018/07/24/hello-world/">
-                <h3>
-                    Hello World
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    
-</ul>
 
+
+<div class="post-container">
+    <div class="post-title">
+        Dynamic Proxy
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2018-07-25 16:54:59</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#Java Android Design Pattern" title="Java Android Design Pattern">Java Android Design Pattern</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <h1 id="动态代理"><a href="#动态代理" class="headerlink" title="动态代理"></a>动态代理</h1>
+        
+        <div id="comment-container">
+        </div>
+    </div>
+</div>
     </div>
 </div>
 
@@ -191,10 +181,24 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.json"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'Dynamic Proxy',
+        owner: 'futurerui',
+        repo: 'futurerui.github.io',
+        oauth: {
+            client_id: '3692f8c142ef739ae9d7',
+            client_secret: 'aace6a07a8fd0471db4e69cfda772c34985e5dfa',
+        },
+    })
+    gitment.render('comment-container')
+</script>
 
 </html>
