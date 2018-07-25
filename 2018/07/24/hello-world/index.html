@@ -157,7 +157,21 @@
         
 
     </ul>
-    
+    <div id="container"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+    var gitment = new Gitment({
+        id: '', // 可选。默认为 location.href
+        owner: 'futurerui',
+        repo: 'futurerui.github.io',
+        oauth: {
+            client_id: '3692f8c142ef739ae9d7',
+            client_secret: 'aace6a07a8fd0471db4e69cfda772c34985e5dfa',
+        },
+    })
+    gitment.render('container')
+    </script>
     <p>
         <span id="busuanzi_container_site_pv">
             <span id="busuanzi_value_site_pv"></span>PV
@@ -182,19 +196,5 @@
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  id: '', // 可选。默认为 location.href
-  owner: 'futurerui',
-  repo: 'futurerui.github.io',
-  oauth: {
-    client_id: '3692f8c142ef739ae9d7',
-    client_secret: 'aace6a07a8fd0471db4e69cfda772c34985e5dfa',
-  },
-})
-gitment.render('container')
-</script>
+
 </html>
