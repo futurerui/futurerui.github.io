@@ -89,7 +89,7 @@
     </div>
     
         <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Retrofit-简介"><span class="toc-text">Retrofit 简介</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Retrofit-简介"><span class="toc-text">Retrofit 简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Retrofit-使用"><span class="toc-text">Retrofit 使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#定义一个接口"><span class="toc-text">定义一个接口</span></a></li></ol></li></ol>
 </div>
     
 </div>
@@ -140,8 +140,12 @@
 </span>
     </div>
     <div class="post-content ">
-        <p>最近参加的很多面试都有问到Retrofit以及RxJava，奈何以前项目使用得不多，因此很遗憾错过了一些比较想去的公司，痛定思痛，因此回家后好好研究了一番。但是实际上做开发，要不断地学习给自己充电，否则就会掉队，因此学习不仅仅是为了应付面试，更是不断充实自己的一个过程</p>
-<h2 id="Retrofit-简介"><a href="#Retrofit-简介" class="headerlink" title="Retrofit 简介"></a>Retrofit 简介</h2>
+        <p>最近参加的很多面试都有问到Retrofit以及RxJava，奈何以前项目使用得不多，因此很遗憾错过了一些比较想去的公司，痛定思痛，因此回家后好好研究了一番。但是实际上做开发，要不断地学习给自己充电，否则就会掉队，因此学习不仅仅是为了应付面试，也不是说项目使用了才去学习，这是不断充实自己的一个过程。</p>
+<h2 id="Retrofit-简介"><a href="#Retrofit-简介" class="headerlink" title="Retrofit 简介"></a>Retrofit 简介</h2><p>Retrofit在<a href="http://square.github.io/retrofit/" target="_blank" rel="noopener">官网</a>有一句简单的介绍：A type-safe HTTP client for Android and Java。翻译过来就是用于Java和Android的类型安全的http客户端。</p>
+<h2 id="Retrofit-使用"><a href="#Retrofit-使用" class="headerlink" title="Retrofit 使用"></a>Retrofit 使用</h2><p>在grdle文件中添加依赖  </p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">implementation <span class="string">'com.squareup.retrofit2:retrofit:2.4.0'</span></span><br></pre></td></tr></table></figure>
+<p>查看引进的依赖可以看到添加Retrofit依赖后自动依赖了Okhttp。</p>
+<h3 id="定义一个接口"><a href="#定义一个接口" class="headerlink" title="定义一个接口"></a>定义一个接口</h3>
         
         <div id="comment-container">
         </div>
